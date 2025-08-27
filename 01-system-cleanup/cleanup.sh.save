@@ -1,0 +1,18 @@
+#!/bin/bash
+set -euo pipefail
+
+echo "Report before cleaning:"
+du - sh test-area
+
+echo "Staring to clean ..."
+
+#Find and delete files ending in .tmp
+find test_area/ -type f -name "*.tmp" -delete
+
+#Find and delete log files older than 7 days
+find test_area/ -type f -name "*.log" -mtime +7 -delete
+
+echo "Cleaning is finished!"
+
+echo "Report after cleaning:"
+du -sh test_area
