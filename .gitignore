@@ -1,0 +1,8 @@
+# Common OS and editor files
+.DS_Store
+*.swp
+*~
+
+# Local artifacts
+temp/
+logs/
