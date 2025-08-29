@@ -1,0 +1,7 @@
+Test Task
+Quick notes:
+Make sure no extra characters are after then.
+
+Make sure every if has a matching fi.
+
+Check your file endings (use dos2unix todo.sh if edited in Windows).

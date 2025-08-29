@@ -1,0 +1,5 @@
+2025-08-29 04:00:01 INFO Starting application
+2025-08-29 04:00:05 WARNING Disk space low
+2025-08-29 04:00:10 ERROR Failed to load module X
+2025-08-29 04:00:15 INFO User login
+2025-08-29 04:00:20 ERROR Database timeout
